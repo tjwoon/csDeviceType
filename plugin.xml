@@ -1,0 +1,24 @@
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+    id="org.cloudsky.cordovaplugins.devicetype"
+    version="1.0.0">
+
+    <author>TJ Woon (tj@cloudsky.org)</author>
+    <name>csDeviceType</name>
+    <description>
+        A Cordova plugin to detect the type of device, mostly for displaying
+        an appropriate UI for the device size (phone/tablet/etc).
+    </description>
+    <license>Lesser GPL version 3</license>
+    <keywords>screen size,device size,tablet detection</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+
+    <platform name="blackberry10">
+        <js-module src="js/csDeviceType-bb10.js" name="CsDeviceType">
+            <clobbers target="window.plugins.deviceType" />
+        </js-module>
+    </platform>
+
+</plugin>
