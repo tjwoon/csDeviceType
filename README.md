@@ -8,7 +8,7 @@ phone-sized device or a tablet-sized device.
 License
 -------
 
-This library is distributed under the terms of the [LGPL license](https://www.gnu.org/licenses/lgpl.html).
+This library is distributed under the terms of the [LGPL license version 3](https://www.gnu.org/licenses/lgpl.html).
 
 
 Usage
