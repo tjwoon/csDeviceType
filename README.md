@@ -4,6 +4,13 @@ csDeviceType
 This is a Cordova plugin for figuring out whether the device that Cordova is running on is a
 phone-sized device or a tablet-sized device.
 
+
+License
+-------
+
+This library is distributed under the terms of the [LGPL license](https://www.gnu.org/licenses/lgpl.html).
+
+
 Usage
 -----
 
